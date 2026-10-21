@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社ハマダデンシ | コーポレートサイト</title>
+  <style>
+    body { font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; line-height: 1.8; color: #333; margin: 0; padding: 0; background-color: #f4f8f5; }
+    header { background-color: #1a4d2e; color: #fff; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+    header h1 { font-size: 20px; margin: 0; }
+    nav a { color: #fff; text-decoration: none; margin-left: 15px; font-size: 14px; }
+    .hero { background-color: #e8f5e9; border-left: 6px solid #2e7d32; padding: 40px 5%; margin: 20px 5%; border-radius: 4px; }
+    .hero h2 { color: #1a4d2e; margin-top: 0; font-size: 24px; }
+    .hero p { color: #2e7d32; font-size: 15px; margin-bottom: 0; }
+    .container { width: 90%; max-width: 1000px; margin: 0 auto; padding: 20px 0; }
+    section { background: #fff; padding: 25px; border-radius: 6px; border: 1px solid #c8e6c9; margin-bottom: 25px; }
+    h2.section-title { color: #1a4d2e; border-bottom: 2px solid #2e7d32; padding-bottom: 8px; font-size: 20px; margin-top: 0; }
+    .member-box { background: #f9fbf9; border: 1px solid #c8e6c9; border-radius: 6px; padding: 15px; margin-bottom: 15px; }
+    .member-title { font-weight: bold; color: #1a4d2e; font-size: 16px; margin-bottom: 8px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #c8e6c9; padding: 12px; text-align: left; font-size: 14px; }
+    th { background-color: #e8f5e9; color: #1a4d2e; width: 25%; }
+    footer { background-color: #1a4d2e; color: #fff; text-align: center; padding: 15px; font-size: 12px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>株式会社ハマダデンシ</h1>
+    <nav>
+      <a href="#about">創業の想い</a>
+      <a href="#member">役員・顧問</a>
+      <a href="#services">事業内容</a>
+      <a href="#company">会社概要</a>
+      <a href="#recruit">採用情報</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>人のためになる仕事を、技術と挑戦で。</h2>
+    <p>街の電気屋から始まった「人のために尽くす精神」を受け継ぎ、高度なITノウハウとAI・イノベーションで未来を創るプロダクト＆ソリューションを展開しています。</p>
+  </div>
+
+  <div class="container">
+
+    <section id="about">
+      <h2 class="section-title">創業ストーリー</h2>
+      <h3 style="color: #2e7d32; margin-top:0;">電気屋の祖父から受け継いだ「人のためになる仕事」</h3>
+      <p>かつて祖父が営んでいた電気屋「ハマダデンキ」。そこは単に家電を販売するだけの場所ではなく、地域の皆さまの困りごとに寄り添い、電気屋としての役割を超えて街のために尽くす存在でした。</p>
+      <p>幼少期に目にしたその姿は、私たちの原点です。「技術や事業を通じて、どれだけ人の役に立てるか」――。祖父が大切にしていた熱い思想と志を受け継ぎ、現代の最先端ITやAIを活用したソリューションと掛け合わせ、株式会社ハマダデンシは創業いたしました。</p>
+    </section>
+
+    <section id="member">
+      <h2 class="section-title">役員・顧問紹介</h2>
+      <div class="member-box">
+        <div class="member-title">代表取締役 浜田 美希（MIKI HAMADA）</div>
+        <p style="margin:0;">祖父が営んでいた「ハマダデンキ」の精神を受け継ぎ、株式会社ハマダデンシを創業。「人のためになる仕事」を軸に、IT事業および小売事業の成長を牽引する。</p>
+      </div>
+      <div class="member-box">
+        <div class="member-title">顧問 松田 優作（YUSAKU MATSUDA）</div>
+        <p style="margin:0;">キヤノン系SIerにて通信・保険向け開発に従事後、ライブドアグループにて年商50億円超のEC事業会社開発責任者を約10年歴任。医療・介護ベンチャー開発責任者や複数社の技術顧問を経て、2017年よりベルフェイス株式会社CTOを務める。現在はスリーウェイグッド株式会社CEO。</p>
+      </div>
+      <div class="member-box">
+        <div class="member-title">CTO 有田 圭佑（KEISUKE ARITA）</div>
+        <p style="margin:0;">システム業界に15年従事。全フェーズを経験し数々の会社にて役職を歴任したAIスペシャリスト。現在はスリーウェイグッド株式会社CTOを務めるとともに、LINEスタンプクリエイターとしても活躍。</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2 class="section-title">事業内容</h2>
+      <table>
+        <tr>
+          <th>IT事業部</th>
+          <td>システム開発、プロダクト企画・運営、AIを活用した開発およびデータ連携基盤の導入支援。高度な技術ノウハウに基づく開発・エンジニアリング支援を行います。</td>
+        </tr>
+        <tr>
+          <th>小売事業部</th>
+          <td>地域密着・商流ノウハウを生かした物品の流通・販売・EC領域の展開。EC事業での豊富な実務経験をバックボーンに、最適な流通を実現します。</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="recruit">
+      <h2 class="section-title">採用情報（Recruit）</h2>
+      <div class="member-box">
+        <div class="member-title">1. CTOを目指す技術者</div>
+        <p>元ベルフェイスCTO（現スリーウェイグッドCEO）の松田や、15年のキャリアを持つAIスペシャリスト兼CTOの有田をはじめ、業界第一線でトップを務めてきたメンバー直伝の「CTOを輩出してきた確かなナレッジと教育環境」があります。</p>
+      </div>
+      <div class="member-box">
+        <div class="member-title">2. 営業職（自社商材・SES）</div>
+        <p>自社IT商材・サービスの営業展開および、SES（システムエンジニアリングサービス）営業を担当していただきます。</p>
+      </div>
+    </section>
+
+    <section id="company">
+      <h2 class="section-title">会社概要</h2>
+      <table>
+        <tr><th>会社名</th><td>株式会社ハマダデンシ</td></tr>
+        <tr><th>代表者</th><td>代表取締役 浜田 美希</td></tr>
+        <tr><th>役員・顧問</th><td>顧問：松田 優作（スリーウェイグッド株式会社 CEO / 元ベルフェイス株式会社 CTO）<br>CTO：有田 圭佑（スリーウェイグッド株式会社 CTO / AIスペシャリスト）</td></tr>
+        <tr><th>事業内容</th><td>・IT事業部（システム開発・プロダクト開発・SES事業）<br>・小売事業部</td></tr>
+      </table>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; HAMADA DENSI Co., Ltd. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
